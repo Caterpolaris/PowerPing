@@ -1,4 +1,5 @@
 /config.yml
 /log.txt
 /build/
-.idea
+.idea/
+dist/
