@@ -11,11 +11,7 @@ builds:
       - CGO_ENABLED=0
     goos:
       - linux
-upx:
-  - # Whether to enable it or not.
-    #
-    # Templates: allowed (since v1.21)
-    enabled: true
+
 archives:
   - format: tar.gz
     # this name template makes the OS and Arch compatible with the results of uname.
